@@ -16,12 +16,12 @@ My strongest desire was always to be able to work from any place in the world an
 
 ## Skills
 
-* HTML5 (BEM methodology);
-* CSS3 (SCSS);
-* JaveScript (basic level), NPM;
-* Gulp (basic level);
-* Git;
-* Figma, Adobe Photoshop.
+* HTML5 (BEM methodology)
+* CSS3 (SCSS)
+* JaveScript (basic level), NPM
+* Gulp (basic level)
+* Git
+* Figma, Adobe Photoshop
 
 ## Code Example
 *Task: square every digit of a number and concatenate them.*
@@ -40,10 +40,10 @@ function squareDigits(num){
 None.
 
 ## Courses
-* https://code.mu (self-learning HTML5, CSS3 and js);
-* https://www.w3schools.com/ (currently learning).
+* https://code.mu (self-learning HTML5, CSS3 and js)
+* https://www.w3schools.com/ (currently learning)
 
 ## Languages
-* **English** - C2 Proficient; [(*certificate link*)](https://www.efset.org/cert/Z8q5iR)
-* **Russian** - Native Speaker;
-* **Ukrainian** - Intermediate.
+* **English** - C2 Proficient [(*certificate link*)](https://www.efset.org/cert/Z8q5iR)
+* **Russian** - Native Speaker
+* **Ukrainian** - Intermediate
