@@ -1,4 +1,3 @@
-# [Placeholder for my future CV](https://c.tenor.com/bf9zFhbHMoMAAAAd/pepe-pepe-universe.gif)
 # Vladislav Dolzhenko
 ## Contacts
 * Phone: +380725000974
