@@ -9,7 +9,6 @@
 * [Telegram](https://t.me/Fen_22)
 ## About Me
 > #### Get busy living or get busy dying.
-> #### The Shawshank Redemption
 
 I am 26 and am a graduate of two universities. Both have nothing to do with coding or programming. For the past 4 years, I've been working at an iron and steel plant. Nowadays, my position is "the head of the steelmaking laboratory". Recently, I was struck with a revelation that either I change my life and career completely, or go insane due to my current state of affairs.
 
