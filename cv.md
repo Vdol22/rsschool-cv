@@ -14,3 +14,11 @@ I am 26 and am a graduate of two universities. Both have nothing to do with codi
 
 My strongest desire was always to be able to work from any place in the world and thus travel as much as I physically can. Hence, I decided to learn web development and enter the IT sphere as a competent front-end specialist. I look forward to gain lots of knowledge and practical skills in the next year or two and hopefully begin a new career with a much brighter future than the black smoke which I see erupting from the pipes of the steel plant I currently struggle to work at.
 
+## Skills
+
+* HTML5 (BEM methodology);
+* CSS3 (SCSS);
+* JaveScript (basic level), NPM;
+* Gulp (basic level);
+* Git;
+* Figma, Adobe Photoshop.
