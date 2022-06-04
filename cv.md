@@ -22,3 +22,27 @@ My strongest desire was always to be able to work from any place in the world an
 * Gulp (basic level);
 * Git;
 * Figma, Adobe Photoshop.
+
+## Code Example
+*Task: square every digit of a number and concatenate them.*
+
+```function squareDigits(num){
+  let arr = String(num).split('');
+  let result = arr.map(function(elem){
+    return elem * elem;
+  });
+  return Number(result.join(''));
+}
+```
+
+## Experience
+None.
+
+## Courses
+https://code.mu (self-learning HTML5, CSS3 and js);
+https://www.w3schools.com/ (currently learning)
+
+## Languages
+**English** - C2 Proficient [*certificate link*](https://www.efset.org/cert/Z8q5iR);
+**Russian** - Native Speaker;
+**Ukrainian** - Intermediate;
