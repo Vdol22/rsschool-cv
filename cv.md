@@ -44,6 +44,6 @@ None.
 * https://www.w3schools.com/ (currently learning).
 
 ## Languages
-* **English** - C2 Proficient [*certificate link*](https://www.efset.org/cert/Z8q5iR);
+* **English** - C2 Proficient; [(*certificate link*)](https://www.efset.org/cert/Z8q5iR)
 * **Russian** - Native Speaker;
 * **Ukrainian** - Intermediate.
