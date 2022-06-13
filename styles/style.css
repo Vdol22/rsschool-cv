@@ -1,1 +1,83 @@
-/* No CSS */
+@font-face {
+  font-family: 'Roboto';
+  src: url("./fonts/Roboto-Regular.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Roboto_italic';
+  src: url("./fonts/Roboto-Italic.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Roboto-Bold';
+  src: url("./fonts/Roboto-Bold.ttf");
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+  color: #012458;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.wrapper {
+  margin: 25px auto;
+  width: 1300px;
+}
+
+.header {
+  position: -webkit-sticky;
+  position: sticky;
+  padding: 1px;
+  background-color: #e3ecff;
+}
+
+.header .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.header .nav__elem {
+  list-style: none;
+}
+
+.main {
+  margin: 30px auto;
+}
+
+.main .left-column {
+  display: inline-block;
+  width: 30%;
+}
+
+.main .left-column .avatar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main .left-column .avatar__img {
+  height: 300px;
+  width: 300px;
+  border: 15px solid #e3ecff;
+  border-radius: 50%;
+}
+
+.main .right-column {
+  display: inline-block;
+  width: 70%;
+}
