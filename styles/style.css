@@ -10,6 +10,10 @@
   font-weight: 700;
 }
 
+#contacts {
+  border-radius: 0 15px 0 0;
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -72,22 +76,14 @@ body {
 .main .blue-bcg {
   background-color: #e3ecff;
   padding-bottom: 15px;
-  height: 100%;
-}
-
-.main .left-column-list-elem {
-  padding: 0px 60px;
-}
-
-.main .left-column-list-elem:not(:last-child) {
-  margin-bottom: 5px;
+  border-radius: 0 15px 15px 0;
 }
 
 .main .left-column {
   width: 40%;
 }
 
-.main .left-column-header {
+.main .left-column .left-column-header {
   padding: 8px 20px;
   text-transform: uppercase;
   -webkit-box-pack: center;
@@ -95,6 +91,14 @@ body {
           justify-content: center;
   color: #e3ecff;
   background-color: #012458;
+}
+
+.main .left-column .left-column-list-elem {
+  padding: 0px 60px;
+}
+
+.main .left-column .left-column-list-elem:not(:last-child) {
+  margin-bottom: 5px;
 }
 
 .main .avatar {
@@ -136,7 +140,7 @@ body {
 .main .right-column .right-column-header {
   text-align: center;
   text-transform: capitalize;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 
 .main .right-column .code__task {
@@ -149,4 +153,23 @@ body {
 
 .main .right-column .courses__elem {
   text-decoration: underline;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #e3ecff;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 100px;
+}
+
+.footer__course .course-logo {
+  width: 150px;
+  height: 50px;
 }

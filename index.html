@@ -15,13 +15,13 @@
 	<div class="wrapper">
 		<div class="header">
 			<ul class="nav">
-				<li class="nav__elem"><a href="#about_me">About Me</a></li>
-				<li class="nav__elem"><a href="#skills">Skills</a></li>
-				<li class="nav__elem"><a href="#code">Code</a></li>
 				<li class="nav__elem"><a href="#contacts">Contacts</a></li>
-				<li class="nav__elem"><a href="#education">Education</a></li>
-				<li class="nav__elem"><a href="#courses">Courses</a></li>
+				<li class="nav__elem"><a href="#skills">Skills</a></li>
 				<li class="nav__elem"><a href="#languages">Languages</a></li>
+				<li class="nav__elem"><a href="#about_me">About Me</a></li>
+				<li class="nav__elem"><a href="#code">Code</a></li>
+				<li class="nav__elem"><a href="#courses">Courses</a></li>
+				<li class="nav__elem"><a href="#certificates">Certificates</a></li>
 			</ul>
 		</div>
 		<main class="main">
@@ -33,16 +33,17 @@
 				</div>
 				<div class="blue-bcg">
 					<section class="main__contacts contacts">
-						<h3 class="contacts__header left-column-header">contacts</h3>
+						<h3 class="contacts__header left-column-header" id="contacts">contacts</h3>
 						<ul class="contacts__list">
-							<li class="left-column-list-elem icon"><i class="fa-solid fa-square-phone"></i><a
+							<li class="left-column-list-elem"><i class="fa-solid fa-square-phone"></i><a
 									href="tel: +380725000974">+38 (072) 50-00-974</a>
 							</li>
 							<li class="left-column-list-elem"><i class="fa-solid fa-envelope"></i><a
 									href="mailto: dolzhenko22@gmail.com">dolzhenko22@gmail.com</a>
 							</li>
 							<li class="left-column-list-elem"><i class="fa-brands fa-telegram"></i><a
-									href="t.me/Fen_22">@Fen_22</a></li>
+									href="t.me/Fen_22">@Fen_22</a>
+							</li>
 							<li class="left-column-list-elem"><i class="fa-brands fa-discord"></i><a
 									href="https://discordapp.com/users/@WackyWooHoo#9709/">@WackyWooHoo#9709</a>
 							</li>
@@ -54,7 +55,7 @@
 							</li>
 						</ul>
 					</section>
-					<section class="main__skills skills">
+					<section class="main__skills skills" id="skills">
 						<h3 class="skills__header left-column-header">skills</h3>
 						<ul class="skills__list">
 							<li class="left-column-list-elem left-column-text"><i class="fa-brands fa-html5"></i>HTML5 (BEM
@@ -70,7 +71,7 @@
 								PS</li>
 						</ul>
 					</section>
-					<section class="main__languages languages">
+					<section class="main__languages languages" id="languages">
 						<h3 class="languages__header left-column-header">languages</h3>
 						<ul class="languages__list">
 							<li class="left-column-list-elem left-column-text">English - C2 Profficient</li>
@@ -82,7 +83,7 @@
 				</div>
 			</div>
 			<div class="right-column">
-				<section class="main__about about">
+				<section class="main__about about" id="about_me">
 					<h2 class="about__header right-column-header">about me</h2>
 					<p class="about__text">I am 26 and am a graduate of two universities. Both have nothing to do with coding
 						or
@@ -101,7 +102,7 @@
 						steel plant daily.
 					</p>
 				</section>
-				<section class="main__code code">
+				<section class="main__code code" id="code">
 					<h2 class="code__header right-column-header">code example</h2>
 					<p class="code__task">Task: square every digit of a number and concatenate them.</p>
 					<pre><code class="code__text">function squareDigits(num){
@@ -112,7 +113,7 @@
   return Number(result.join(''));
 }</code></pre>
 				</section>
-				<section class="main__courses courses">
+				<section class="main__courses courses" id="courses">
 					<h2 class="courses__header right-column-header">courses</h2>
 					<ul class="courses__list">
 						<li class="courses__elem"><a href="https://rs.school/" class="courses__link"><i
@@ -126,7 +127,7 @@
 									class="fa-solid fa-caret-right"></i>w3schools</a></li>
 					</ul>
 				</section>
-				<section class="main__certificates certificates">
+				<section class="main__certificates certificates" id="certificates">
 					<h2 class="certificates__header right-column-header">certificates</h2>
 					<div class="certificate__elem">
 						<a href="https://www.efset.org/cert/Z8q5iR" class="certificates__link">
@@ -144,6 +145,12 @@
 				</section>
 			</div>
 		</main>
+		<footer class="footer">
+			<p class="footer__year">2022</p>
+			<a href="https://github.com/Vdol22" class="footer__git-link">Vdol22</a>
+			<a href="https://rs.school/js/" class="footer__course"><img class="course-logo" src="img/rs_school_js.svg"
+					alt="RSchool logo"></a>
+		</footer>
 	</div>
 </body>
 
