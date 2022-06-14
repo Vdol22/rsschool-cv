@@ -72,6 +72,7 @@ body {
 .main .blue-bcg {
   background-color: #e3ecff;
   padding-bottom: 15px;
+  height: 100%;
 }
 
 .main .left-column-list-elem {
@@ -94,11 +95,6 @@ body {
           justify-content: center;
   color: #e3ecff;
   background-color: #012458;
-}
-
-.main .right-column-header {
-  text-align: center;
-  text-transform: capitalize;
 }
 
 .main .avatar {
@@ -132,7 +128,25 @@ body {
   font-size: 25px;
 }
 
-.right-column {
+.main .right-column {
   width: 60%;
   padding: 10px 35px;
+}
+
+.main .right-column .right-column-header {
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+
+.main .right-column .code__task {
+  font-style: italic;
+}
+
+.main .right-column .code__text {
+  background-color: #e3ecff;
+}
+
+.main .right-column .courses__elem {
+  text-decoration: underline;
 }

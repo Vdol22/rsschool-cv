@@ -6,8 +6,8 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Vladislav CV</title>
-	<link rel="stylesheet" href="/styles/normalize.css">
-	<link rel="stylesheet" href="/styles/style.css">
+	<link rel="stylesheet" href="styles/normalize.css">
+	<link rel="stylesheet" href="styles/style.css">
 	<script src="https://kit.fontawesome.com/7ac46317d2.js" crossorigin="anonymous"></script>
 </head>
 
@@ -15,20 +15,20 @@
 	<div class="wrapper">
 		<div class="header">
 			<ul class="nav">
-				<li class="nav__elem"><a href="#">About Me</a></li>
-				<li class="nav__elem"><a href="#">Skills</a></li>
-				<li class="nav__elem"><a href="#">Code</a></li>
-				<li class="nav__elem"><a href="#">Contacts</a></li>
-				<li class="nav__elem"><a href="#">Education</a></li>
-				<li class="nav__elem"><a href="#">Courses</a></li>
-				<li class="nav__elem"><a href="#">Languages</a></li>
+				<li class="nav__elem"><a href="#about_me">About Me</a></li>
+				<li class="nav__elem"><a href="#skills">Skills</a></li>
+				<li class="nav__elem"><a href="#code">Code</a></li>
+				<li class="nav__elem"><a href="#contacts">Contacts</a></li>
+				<li class="nav__elem"><a href="#education">Education</a></li>
+				<li class="nav__elem"><a href="#courses">Courses</a></li>
+				<li class="nav__elem"><a href="#languages">Languages</a></li>
 			</ul>
 		</div>
 		<main class="main">
 			<div class="left-column">
 				<div class="main__avatar avatar">
-					<img src="/img/Avatar.png" alt="Vladislav photo" class="avatar__img">
-					<h1 class="avatar__name">Vladyslav Dolzhenko</h1>
+					<img src="img/Avatar.png" alt="Vladislav photo" class="avatar__img">
+					<h1 class="avatar__name">Vladislav Dolzhenko</h1>
 					<p class="avatar__job">Front-end Developer</p>
 				</div>
 				<div class="blue-bcg">
@@ -81,7 +81,6 @@
 					</section>
 				</div>
 			</div>
-
 			<div class="right-column">
 				<section class="main__about about">
 					<h2 class="about__header right-column-header">about me</h2>
@@ -105,39 +104,41 @@
 				<section class="main__code code">
 					<h2 class="code__header right-column-header">code example</h2>
 					<p class="code__task">Task: square every digit of a number and concatenate them.</p>
-					<pre><code class="code__text">
-function squareDigits(num){
+					<pre><code class="code__text">function squareDigits(num){
   let arr = String(num.split('');
   let result = arr.map(function(elem){
     return elem * elem;
   });
   return Number(result.join(''));
-}
-					</code></pre>
+}</code></pre>
 				</section>
 				<section class="main__courses courses">
 					<h2 class="courses__header right-column-header">courses</h2>
 					<ul class="courses__list">
-						<li class="courses__elem"><a href="https://rs.school/" class="courses__link">The rolling Scopes
+						<li class="courses__elem"><a href="https://rs.school/" class="courses__link"><i
+									class="fa-solid fa-caret-right"></i>The Rolling Scopes
 								School</a></li>
-						<li class="courses__elem"><a href="https://code.mu/" class="courses__link">code.mu (self-learning
+						<li class="courses__elem"><a href="https://code.mu/" class="courses__link"><i
+									class="fa-solid fa-caret-right"></i>code.mu (self-learning
 								HTML5, CSS3,
 								JS)</a></li>
-						<li class="courses__elem"><a href="https://w3schools.com/" class="courses__link">w3schools</a></li>
+						<li class="courses__elem"><a href="https://w3schools.com/" class="courses__link"><i
+									class="fa-solid fa-caret-right"></i>w3schools</a></li>
 					</ul>
 				</section>
 				<section class="main__certificates certificates">
 					<h2 class="certificates__header right-column-header">certificates</h2>
 					<div class="certificate__elem">
-						<a href="#" class="certificates__link">
+						<a href="https://www.efset.org/cert/Z8q5iR" class="certificates__link">
 							<p class="certificates__text">English</p>
-							<img class="certificate__img" src=# alt="English Certificate">
+							<img class="certificate__img" src="img/efset-logo.png" alt="English Certificate">
 						</a>
 					</div>
 					<div class="certificate__elem">
-						<a href="#" class="certificates__link">
+						<a href="https://www.w3schools.com/" class="certificates__link">
 							<p class="certificates__text">W3schools</p>
-							<img class="certificate__img" src=# alt="W3schools Certificate">
+							<p class="certificates__text">HTML5</p>
+							<img class="certificate__img" src="img/w3schools.png" alt="W3schools Certificate">
 						</a>
 					</div>
 				</section>
