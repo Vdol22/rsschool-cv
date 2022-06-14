@@ -31,13 +31,22 @@ body {
 .wrapper {
   margin: 25px auto;
   width: 1300px;
+  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  border-radius: 15px 15px 0 0;
 }
 
 .header {
   position: -webkit-sticky;
   position: sticky;
+  top: 0;
   padding: 1px;
   background-color: #e3ecff;
+  border-radius: 15px 15px 0 0;
+}
+
+.header ul {
+  margin-bottom: 0.67em;
 }
 
 .header .nav {
@@ -53,15 +62,42 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin: 15px 0;
+}
+
+.main .blue-bcg {
+  background-color: #e3ecff;
+  padding-bottom: 15px;
+}
+
+.main .left-column-list-elem {
+  padding: 0px 60px;
+}
+
+.main .left-column-list-elem:not(:last-child) {
+  margin-bottom: 5px;
 }
 
 .main .left-column {
-  padding: 30px 0;
   width: 40%;
-  background-color: rgba(236, 236, 236, 0.411);
 }
 
-.main .left-column .avatar {
+.main .left-column-header {
+  padding: 8px 20px;
+  text-transform: uppercase;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #e3ecff;
+  background-color: #012458;
+}
+
+.main .right-column-header {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.main .avatar {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -72,39 +108,27 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 30px;
+  margin-bottom: 5px;
 }
 
-.main .left-column .avatar__img {
+.main .avatar__img {
   height: 300px;
   width: 300px;
   border: 15px solid #e3ecff;
   border-radius: 50%;
 }
 
-.main .left-column .avatar__name {
+.main .avatar__name {
   font-weight: 700;
-  margin-bottom: 14px;
+  margin-bottom: 10px;
 }
 
-.main .left-column .avatar__job {
+.main .avatar__job {
   font-family: 'Roboto', sans-serif;
   font-size: 25px;
 }
 
-.main .left-column .contacts__header {
-  text-align: center;
-  text-transform: uppercase;
-}
-
-.main .left-column .contacts__list li:not(:last-child) {
-  margin-bottom: 5px;
-}
-
-.main .left-column .contacts__list-element {
-  padding: 0px 90px;
-}
-
 .right-column {
   width: 60%;
+  padding: 10px 35px;
 }
