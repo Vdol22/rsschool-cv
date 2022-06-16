@@ -151,7 +151,7 @@ body {
   background-color: #e3ecff;
 }
 
-.main .right-column .courses__elem {
+.main .right-column .courses__elem, .main .right-column .projects__elem {
   text-decoration: underline;
 }
 
