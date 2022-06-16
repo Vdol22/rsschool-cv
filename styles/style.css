@@ -41,7 +41,7 @@ body {
   width: 1300px;
   -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
-  border-radius: 15px 15px 0 0;
+  border-radius: 15px;
 }
 
 .header {
@@ -167,6 +167,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   padding: 20px 100px;
+  border-radius: 0 0 15px 15px;
 }
 
 .footer__course .course-logo {
